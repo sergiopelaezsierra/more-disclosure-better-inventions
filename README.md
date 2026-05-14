@@ -6,6 +6,10 @@ inputs are confidential or licensed and are therefore **not** redistributed
 here — see [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) for what those
 are and how to obtain them.
 
+**Repository:** <https://github.com/sergiopelaezsierra/more-disclosure-better-inventions>
+**Code archive (Zenodo):** *DOI pending — minted on the first tagged release.*
+**Trained SciBERT models (Zenodo):** *DOI pending — separate deposit; see [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md).*
+
 ## What's in the paper, what's in the package
 
 The paper's analytical artifacts (Tables 3–7, Figures 3–7) are each

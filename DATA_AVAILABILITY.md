@@ -17,12 +17,17 @@ that researchers with appropriate access can reproduce the pipeline.
 | **USPTO Maintenance Fee Events** | Patent renewal records (whether each granted U.S. patent has paid its 4th-, 8th-, and 12th-year maintenance fees). | **Public.** Available via the USPTO bulk-data site. | `code/04_retrain_cp_models_optional/04b_download_uspto_renewal.R` parses the bulk text file into structured records. |
 | **Reliance on Science** (Marx & Fuegi 2020, 2022) | Patent-to-paper citation dataset linking USPTO patents to DOIs of cited publications. | **Public, CC-BY.** Available on Zenodo (DOI 10.5281/zenodo.4778878). | `code/04_retrain_cp_models_optional/04c_merge_ros_uspto.ipynb` joins it to USPTO renewal records. |
 
-## Bundled artifacts
+## Bundled and externally deposited artifacts
+
+The replication code is on GitHub and archived on Zenodo on each tagged
+release; the trained SciBERT classifiers are released as a separate Zenodo
+deposit because of their size (~1.3 GB).
 
 | Artifact | Where | Size | License |
 |---|---|---|---|
-| Three temporal SciBERT classifiers (`model_2019_2020`, `model_2021_2022`, `model_2023_2025`) | External deposit (Zenodo DOI TBD); local default path `../Trained models/` | ~1.3 GB total | Apache 2.0 (derived from `allenai/scibert_scivocab_uncased`) |
-| Yearly publication counts used by Figure 4 | `data/public/figure4_publications_per_year.csv` | ~1 KB | CC0 (aggregated counts derived from a licensed source; counts themselves are not protectable) |
+| Replication code (this package) | GitHub: <https://github.com/sergiopelaezsierra/more-disclosure-better-inventions> · Zenodo: *DOI pending* | <2 MB | MIT |
+| Three temporal SciBERT classifiers (`model_2019_2020`, `model_2021_2022`, `model_2023_2025`) | Zenodo: *DOI pending* (also mirrored locally for development at `trained_models/` or `../Trained models/`) | ~1.3 GB total | Apache 2.0 (derived from `allenai/scibert_scivocab_uncased`) |
+| Yearly publication counts used by Figure 4 | `data/public/figure4_publications_per_year.csv` | ~1 KB | CC0 |
 
 ## Anonymization
 
