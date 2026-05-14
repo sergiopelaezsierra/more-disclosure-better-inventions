@@ -7,8 +7,8 @@ here — see [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) for what those
 are and how to obtain them.
 
 **Repository:** <https://github.com/sergiopelaezsierra/more-disclosure-better-inventions>
-**Code archive (Zenodo):** *DOI pending — minted on the first tagged release.*
-**Trained SciBERT models (Zenodo):** [10.5281/zenodo.20184929](https://doi.org/10.5281/zenodo.20184929)
+**Code archive (Zenodo):** [10.5281/zenodo.20186754](https://doi.org/10.5281/zenodo.20186754) *(concept DOI, always points to the latest version; v1.0.0 = [10.5281/zenodo.20186755](https://doi.org/10.5281/zenodo.20186755))*
+**Trained SciBERT models (Zenodo):** [10.5281/zenodo.20184929](https://doi.org/10.5281/zenodo.20184929) *(concept DOI; v1.0.0 = [10.5281/zenodo.20184930](https://doi.org/10.5281/zenodo.20184930))*
 
 ## What's in the paper, what's in the package
 
@@ -127,6 +127,19 @@ pre-trained models are deposited externally (see `DATA_AVAILABILITY.md`).
   publication are listed in `environment/sessionInfo.txt`.
 - **Python 3.10+** (only for the matching, retraining, and scoring scripts)
   with packages listed in `environment/requirements.txt`.
+
+## How to cite
+
+If you use this code or the trained models, please cite both of the
+concept DOIs above (they always resolve to the latest version):
+
+> Pelaez, S., Yang, J. J., Walsh, J. P., & Ceccagnoli, M. (2026). *Replication package for "More Disclosure, Better Inventions? Commercial Potential in University Invention Disclosures"* [Software]. Zenodo. <https://doi.org/10.5281/zenodo.20186754>
+>
+> Pelaez, S., Yang, J. J., Walsh, J. P., & Ceccagnoli, M. (2026). *Commercial Potential of Science — Three temporal SciBERT classifiers* [Trained models]. Zenodo. <https://doi.org/10.5281/zenodo.20184929>
+
+For exact reproducibility, cite the version-specific DOIs (`...20186755`
+for code v1.0.0 and `...20184930` for models v1.0.0) instead of the
+concept DOIs.
 
 ## Anonymization note
 
