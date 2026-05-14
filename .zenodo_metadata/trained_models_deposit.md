@@ -1,7 +1,12 @@
 # Zenodo deposit — Trained commercial-potential SciBERT classifiers
 
-Use the fields below to fill out <https://zenodo.org/uploads/new>. Each
-heading corresponds to a section in the Zenodo upload form.
+**Status: published.** DOI: [10.5281/zenodo.20184929](https://doi.org/10.5281/zenodo.20184929)
+
+The fields below are kept for provenance: they document what was deposited
+under this DOI and what metadata fields it carries on Zenodo. To deposit
+a new version (e.g., retrained models), open the deposit page on Zenodo
+and click "New version" — Zenodo will pre-fill these fields and issue a
+new version DOI while preserving the concept DOI above.
 
 ---
 

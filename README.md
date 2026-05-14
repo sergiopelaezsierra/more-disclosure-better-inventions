@@ -8,7 +8,7 @@ are and how to obtain them.
 
 **Repository:** <https://github.com/sergiopelaezsierra/more-disclosure-better-inventions>
 **Code archive (Zenodo):** *DOI pending — minted on the first tagged release.*
-**Trained SciBERT models (Zenodo):** *DOI pending — separate deposit; see [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md).*
+**Trained SciBERT models (Zenodo):** [10.5281/zenodo.20184929](https://doi.org/10.5281/zenodo.20184929)
 
 ## What's in the paper, what's in the package
 

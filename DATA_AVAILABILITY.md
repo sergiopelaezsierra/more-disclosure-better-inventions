@@ -26,7 +26,7 @@ deposit because of their size (~1.3 GB).
 | Artifact | Where | Size | License |
 |---|---|---|---|
 | Replication code (this package) | GitHub: <https://github.com/sergiopelaezsierra/more-disclosure-better-inventions> · Zenodo: *DOI pending* | <2 MB | MIT |
-| Three temporal SciBERT classifiers (`model_2019_2020`, `model_2021_2022`, `model_2023_2025`) | Zenodo: *DOI pending* (also mirrored locally for development at `trained_models/` or `../Trained models/`) | ~1.3 GB total | Apache 2.0 (derived from `allenai/scibert_scivocab_uncased`) |
+| Three temporal SciBERT classifiers (`model_2019_2020`, `model_2021_2022`, `model_2023_2025`) | Zenodo: [10.5281/zenodo.20184929](https://doi.org/10.5281/zenodo.20184929) (also mirrored locally for development at `trained_models/` or `../Trained models/`) | ~1.3 GB total | Apache 2.0 (derived from `allenai/scibert_scivocab_uncased`) |
 | Yearly publication counts used by Figure 4 | `data/public/figure4_publications_per_year.csv` | ~1 KB | CC0 |
 
 ## Anonymization

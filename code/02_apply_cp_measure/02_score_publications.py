@@ -11,9 +11,14 @@ For each publication, this script:
   4. Records the predicted probability of citation by a renewed patent --
      the commercial-potential score used throughout the paper.
 
-The three temporal models were trained by 04_retrain_cp_models_optional/.
-They are not bundled with the replication package; see DATA_AVAILABILITY.md
-for the deposit DOI and download instructions.
+The three temporal models were trained by 04_retrain_cp_models_optional/
+and are deposited on Zenodo:
+
+  https://doi.org/10.5281/zenodo.20184929
+
+Download `commercial_potential_scibert_v1.0.0.zip`, extract it, and point
+REPL_MODELS_DIR at the resulting directory (or place the three model
+folders next to the package as `../Trained models/`).
 
 Output:
   data/Processed/7_disclosure_otl_and_pubs_wos_matched_with_predictions.csv

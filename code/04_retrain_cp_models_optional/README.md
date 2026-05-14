@@ -3,9 +3,14 @@
 These scripts retrain the three temporal SciBERT classifiers used to score
 publications on commercial potential. **You do not need to run them to
 replicate the paper.** The trained models are released as a separate
-artifact (see `DATA_AVAILABILITY.md` at the package root for the deposit
-DOI); `code/02_apply_cp_measure/02_score_publications.py` loads those
-weights directly.
+Zenodo deposit:
+
+  https://doi.org/10.5281/zenodo.20184929
+
+`code/02_apply_cp_measure/02_score_publications.py` loads those weights
+directly. Retraining from scratch (~3 GPU-hours on a T4) is only needed if
+you want to verify the training procedure or adapt it to a different
+window or input dataset.
 
 Run the scripts in this order only if you want to retrain from scratch:
 
