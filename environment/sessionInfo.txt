@@ -1,0 +1,32 @@
+﻿# R sessionInfo() captured 2026-05-14 09:34:58.377157
+
+R version 4.4.3 (2025-02-28 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 22631)
+
+Matrix products: default
+
+
+locale:
+[1] LC_COLLATE=English_United States.utf8 
+[2] LC_CTYPE=English_United States.utf8   
+[3] LC_MONETARY=English_United States.utf8
+[4] LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.utf8    
+
+time zone: America/New_York
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.4.3
+Rscript.exe : Warning message:
+At line:1 char:1
++ & 'C:\Users\sergiopel\AppData\Local\Programs\R\R-4.4.3\bin\x64\Rscrip ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning message::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+In sink(type = type, split = split) : no sink to remove
